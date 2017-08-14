@@ -1,3 +1,4 @@
+/*
 function getPlanetName(id){
   var name;
   switch(id){
@@ -27,4 +28,11 @@ function getPlanetName(id){
   }
   
   return name;
+}
+*/
+
+//Refactoring
+function getPlanetName(id){
+  var names = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptun'];
+  return names[id - 1];
 }
