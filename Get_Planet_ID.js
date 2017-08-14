@@ -33,6 +33,6 @@ function getPlanetName(id){
 
 //Refactoring
 function getPlanetName(id){
-  var names = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptun'];
+  var names = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
   return names[id - 1];
 }
