@@ -1,8 +1,10 @@
 var orderCount = 0
+var orderNum = 0
 
 function takeOrder(crustType, topping) {
 	orderCount = orderCount + 1;
-	return('Order: ' + crustType + ' pizza topped with ' + topping);
+	orderNum = orderNum + 1;
+	return('Order ' + orderNum + ': ' + crustType + ' pizza topped with ' + topping);
 }
 
 function getSumTotal(itemCount) {
