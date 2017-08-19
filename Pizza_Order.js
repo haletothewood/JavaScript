@@ -8,7 +8,8 @@ function takeOrder(crustType, topping) {
 }
 
 function getSumTotal(itemCount) {
-	return itemCount * 7.5;
+	itemCount = itemCount * 7.5;
+	return "The sum total of your order is £" + itemCount.toFixed(2)
 }
 
 console.log(takeOrder('Thin crust', 'extra cheese'))
