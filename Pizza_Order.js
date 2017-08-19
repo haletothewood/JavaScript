@@ -1,5 +1,5 @@
 function takeOrder(crustType, topping) {
-	console.log('Order: ' + crustType + ' pizza topped with ' + topping);
+	return('Order: ' + crustType + ' pizza topped with ' + topping);
 }
 
-takeOrder('Thin crust', 'extra cheese')
+console.log(takeOrder('Thin crust', 'extra cheese'))
